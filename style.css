@@ -35,4 +35,11 @@ nav {
         position: absolute;
         transform: translate(-50%, -50%);
         pointer-events: none;
+        transition: all 0.3s ease;
+        transition-property: background, transform;
+    }
+
+    .Link-grow {
+     transform: scale(2);
+     background: black;
     }
